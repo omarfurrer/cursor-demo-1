@@ -1,0 +1,17 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "A bare-bones TypeScript project",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "clean": "rimraf dist",
+    "dev": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.4.0"
+  }
+}
